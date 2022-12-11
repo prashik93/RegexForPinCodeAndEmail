@@ -14,6 +14,6 @@ public class Main {
     }
 
     public void creatingRegexPatternForEmail() {
-        System.out.println("\nValidating the first mandatory part : " + Pattern.matches("^[a-z]{3}", "abc"));
+        System.out.println("\nValidating the second mandatory part : " + Pattern.matches("^[a-z]{3}[@][a-z]{3,}$", "abc@bridgelabz"));
     }
 }
