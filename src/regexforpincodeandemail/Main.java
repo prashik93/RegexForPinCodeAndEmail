@@ -9,6 +9,6 @@ public class Main {
     }
 
     public void creatingRegexPattern() {
-        System.out.println("\nSix digit number for Pin code : " + Pattern.matches("^[0-9]{6}$", "400088"));
+        System.out.println("\nSix digit number for Pin code : " + Pattern.matches("^(([0-9]{6})|([0-9]{3}[\s][0-9]{3}))$", "400 088"));
     }
 }
